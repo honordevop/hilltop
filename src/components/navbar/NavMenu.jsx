@@ -6,7 +6,7 @@ import Socials from "./Socials";
 
 const NavMenu = ({ toggleMenu }) => {
   return (
-    <div className="absolute bg-[#e03030] top-0 right-0 w-full md:w-9/12 h-screen flex flex-col justify-between p-5 font-space_grotesk">
+    <div className="absolute z-30 bg-[#e03030] top-0 right-0 w-full md:w-9/12 h-screen flex flex-col justify-between p-5 font-space_grotesk">
       <div
         className="flex md:text-[25px] gap-2 items-center justify-end cursor-pointer md:p-10"
         onClick={toggleMenu}
