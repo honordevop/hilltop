@@ -6,8 +6,8 @@ import Image from "next/image";
 const Hero = () => {
   const imageUrl = "/public/heroImage1.png";
   return (
-    <div className="h-screen">
-      <div className="relative w-full h-1/2 md:h-full overflow-hidden font-space_grotesk">
+    <div className="h-[50vh] md:h-screen">
+      <div className="relative w-full h-full overflow-hidden font-space_grotesk">
         <div className="relative h-full">
           <div className="absolute h-full md:h-screen top-0 z-20 w-full flex items-center p-2 md:py-2 md:px-16">
             <div className="">
