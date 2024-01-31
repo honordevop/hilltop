@@ -17,7 +17,7 @@ const Hero = () => {
               </h1>
             </div>
           </div>
-          <svg
+          {/* <svg
             id="hero_svg"
             viewBox="0 0 1440 850"
             className="absolute top-0 object-fill z-20 hidden"
@@ -28,10 +28,10 @@ const Hero = () => {
               stroke="#e42424"
               stroke-width="360"
               stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinejoin="round"
               stroke-miterlimit="10"
             ></path>
-          </svg>
+          </svg> */}
         </div>
         <Image
           src="/heroImage1.png"

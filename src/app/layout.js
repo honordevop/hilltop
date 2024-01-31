@@ -2,11 +2,12 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import Navbar from "@/components/navbar/Navbar";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const space_grotesk = Space_Grotesk({
   subsets: ["latin"],
-  variable: "--font-space_grotesk",
+  // variable: "--font-space_grotesk",
 });
 
 export const metadata = {
@@ -17,7 +18,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${space_grotesk.variable} `}>
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
+      <body className={`${inter.className} ${space_grotesk.className} `}>
         <ThemeProvider>
           <div>
             <Navbar />
