@@ -1,6 +1,8 @@
+import Business from "@/components/Business";
 import Governance from "@/components/Governance";
 import Hero from "@/components/Hero";
 import Mission from "@/components/Mission";
+import Operations from "@/components/Operations";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +11,8 @@ export default function Home() {
       <Hero />
       <Mission />
       <Governance />
+      <Business />
+      <Operations />
     </div>
   );
 }
