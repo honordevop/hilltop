@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Governance = () => {
   return (
-    <div className="w-full h-max flex flex-col justify-center items-center bg-[#f9f9f9]  text-black px-5 py-16 md:px-44 gap-5">
+    <div className="w-full h-max flex flex-col justify-center items-center bg-[#f9f9f9]  text-black px-2 py-16 md:px-44 gap-5">
       <div className="bg-white max-w-5xl flex flex-col gap-5 md:flex-row items-center justify-center">
         <div className="relative w-11/12 md:w-2/4 h-[20rem]">
           <Image

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Business = () => {
   return (
-    <div className="w-full h-max flex flex-col justify-center items-center bg-[#f9f9f9] text-black py-16 px-5 md:px-44 gap-5">
+    <div className="w-full h-max flex flex-col justify-center items-center bg-[#f9f9f9] text-black py-16 px-2 md:px-44 gap-5">
       <div className="bg-white max-w-5xl flex flex-col-reverse gap-5 md:flex-row items-center justify-center">
         <div className="w-11/12 md:w-2/4 p-5 flex flex-col gap-5 ">
           <h2 className="text-red-600 text-2xl font-black">Our Business</h2>
