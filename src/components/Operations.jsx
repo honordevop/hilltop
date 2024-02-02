@@ -18,11 +18,16 @@ const Operations = () => {
           />
         </div>
         <div className="w-11/12 md:w-2/4 p-5 flex flex-col gap-5 ">
-          <h2 className="text-red-600 text-2xl font-black">Our Operations</h2>
+          <h2 className="text-red-600 text-2xl font-black">
+            Currrent Operations
+          </h2>
+          <h2 className="text-red-600 text-xl font-black">
+            Alaoma Field Development
+          </h2>
           <p className="text-lg leading-8">
-            Hilltop's has a diversify portfolio of businesses in the energy
-            industry, ranging from procurement, pipeline integrity assessment,
-            Oil & Gas Exploration and Production.
+            Hilltop was awarded 100% interest in the Alaoma Marginal Field by
+            the Nigerian Upstream Petroleum Regulatory Commission (NUPRC)
+            through Petroleum Prospecting License (PPL 224).
           </p>
           <Link
             href="/"
