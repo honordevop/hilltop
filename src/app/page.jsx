@@ -1,5 +1,6 @@
 import Business from "@/components/Business";
 import CeoQuote from "@/components/CeoQuote";
+import Driven from "@/components/Driven";
 import Governance from "@/components/Governance";
 import Hero from "@/components/Hero";
 import Mission from "@/components/Mission";
@@ -17,6 +18,7 @@ export default function Home() {
       <Operations />
       <CeoQuote />
       <Purpose />
+      <Driven />
     </div>
   );
 }
