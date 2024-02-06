@@ -42,13 +42,14 @@ body {
 }
 
 .dark {
-  background-color: #0a0f2b;
+  background-color: #ffffff;
   /* color: #ece9e9; */
-  color: #ffffff;
+  color: #0a0f2b;
 }
 
 .light {
-  background-color: #e42424;
+  /* background-color: #e42424; */
+  background-color: #262525;
   color: #ffffff;
 }
 
@@ -82,5 +83,8 @@ body {
 @media (max-width: 950px) {
   .disappear {
     display: none;
+  }
+  .elements {
+    display: block;
   }
 }

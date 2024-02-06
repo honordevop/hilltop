@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="relative w-full h-full overflow-hidden font-space_grotesk">
         <div className="relative h-full">
           <div className="absolute h-full md:h-screen top-0 z-20 w-full flex items-center p-2 md:py-2 md:px-16">
-            <div className="">
+            <div className="text-white">
               <h1 className="text-[2rem] md:text-[6rem] font-bold leading-normal">
                 Powering <br /> Indigeneous Energy <br />
                 <span className="">Solutions Inovatively</span>

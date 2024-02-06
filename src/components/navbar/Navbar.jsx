@@ -16,7 +16,7 @@ const Navbar = () => {
   };
   return (
     <div className="bg-white relative w-full flex justify-center">
-      <div className="w-full flex items-center justify-between p-2 md:py-2 md:px-16">
+      <div className="w-full flex items-center justify-between py-2 px-3 md:py-2 md:px-16">
         <Link href="/">
           <div className="relative w-[100px] h-[40px] md:w-[200px] md:h-20">
             <Image src="/logo.png" alt="logo" fill={true} priority />
