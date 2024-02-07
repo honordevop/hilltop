@@ -44,7 +44,7 @@ body {
 .dark {
   background-color: #ffffff;
   /* color: #ece9e9; */
-  color: #0a0f2b;
+  color: rgb(75 85 99 0.6);
 }
 
 .light {

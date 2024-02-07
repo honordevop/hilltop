@@ -30,7 +30,7 @@ const Operations = () => {
             through Petroleum Prospecting License (PPL 224).
           </p>
           <Link
-            href="/"
+            href="/alaoma-field"
             className="flex gap-2 items-center border-b-2 border-red-600 w-max"
           >
             <Button className={`w-max text-left text-gray-400 font-bold `}>

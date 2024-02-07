@@ -1,7 +1,7 @@
 import React from "react";
 
-const NewInsight = () => {
+const OurService = () => {
   return <div>NewInsight page</div>;
 };
 
-export default NewInsight;
+export default OurService;

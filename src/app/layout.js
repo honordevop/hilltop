@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const space_grotesk = Space_Grotesk({
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
           <div>
             <Navbar />
             {children}
+            <Footer />
           </div>
         </ThemeProvider>
       </body>

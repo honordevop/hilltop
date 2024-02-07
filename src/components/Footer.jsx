@@ -3,7 +3,7 @@ import Socials from "./navbar/Socials";
 
 const Footer = () => {
   return (
-    <div className="w-full pt-16 pb-10 px-2 md:px-16 flex flex-col gap-10 items-center justify-center">
+    <div className="w-full pt-16 pb-10 px-2 md:px-16 flex flex-col gap-10 items-center justify-center bg-[#0a0f2b] text-white">
       <div className="px-5 w-full flex flex-col md:flex-row justify-between gap-5 ">
         <div className="w-full">
           <p className="text-[40px] font-bold w-[200px] mobile reduceText">

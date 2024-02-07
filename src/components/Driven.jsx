@@ -16,7 +16,7 @@ const Driven = () => {
 
         <div className="relative h-max">
           <Link
-            href=""
+            href="/our-company"
             className="bg-gray-200 font-black text-gray-950 px-[20px] py-5 rounded-md"
           >
             Learn More
