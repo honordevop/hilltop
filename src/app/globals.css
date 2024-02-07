@@ -49,7 +49,7 @@ body {
 
 .light {
   /* background-color: #e42424; */
-  background-color: #262525;
+  background-color: #111;
   color: #ffffff;
 }
 
@@ -78,6 +78,22 @@ body {
   background-position: center; /* Optional: Adjust to your needs */
 }
 
+.sustainability-background-image {
+  /* background-image: url("/sustainable-bgg.webp"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/sustainable-bgg.webp");
+  /* Other background properties */
+  background-size: cover; /* Optional: Adjust to your needs */
+  background-position: center; /* Optional: Adjust to your needs */
+}
+
+.message {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 347 245'%3E%3Cpath d='M236.05.94C277.7 5.1 315.86 22.17 347 48.04V245h-70.18v-23.47c0-35.54-25.06-66.97-55.84-70.05-18.09-1.82-35.35 3.78-48.62 15.79a61.82 61.82 0 0 0-20.6 46.38V245H.47v-33.36A214.28 214.28 0 0 1 70.85 55.09 214.5 214.5 0 0 1 207.2 0h14.86c4.66.16 9.32.47 13.98.94z' fill='%23808080' fill-rule='evenodd'/%3E%3C/svg%3E")
+    no-repeat 110% 110%;
+  /* background-color: #006b42; */
+  background-size: auto 200px;
+}
+
 @media (max-width: 500px) {
   .mobile {
     width: 90%;
@@ -85,6 +101,20 @@ body {
   .reduceText {
     font-size: 32px;
   }
+
+  .message {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 347 245'%3E%3Cpath d='M236.05.94C277.7 5.1 315.86 22.17 347 48.04V245h-70.18v-23.47c0-35.54-25.06-66.97-55.84-70.05-18.09-1.82-35.35 3.78-48.62 15.79a61.82 61.82 0 0 0-20.6 46.38V245H.47v-33.36A214.28 214.28 0 0 1 70.85 55.09 214.5 214.5 0 0 1 207.2 0h14.86c4.66.16 9.32.47 13.98.94z' fill='%23808080' fill-rule='evenodd'/%3E%3C/svg%3E")
+      no-repeat 200% 100%;
+    /* background-color: #006b42; */
+    background-size: auto 190px;
+  }
+}
+
+.green-module-bg2 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 677 924'%3E%3Cpath d='M677 .23v874.4l-180.62-40.94L570.19 924H216.03L31.76 698.55a137.1 137.1 0 0 1-11.34-157.43l.91-1.5a137.12 137.12 0 0 1 146.93-61.56l353.35 80.12-120.62-298.54c-28.37-70.2 5.57-150.14 75.77-178.5L677 .22z' fill='%23808080' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-size: auto 924px;
+  background-repeat: repeat-y;
+  background-position: 200% 140%;
 }
 
 @media (max-width: 950px) {
@@ -94,4 +124,11 @@ body {
   .elements {
     display: block;
   }
+  .green-module-bg2 {
+    background: none;
+  }
+}
+
+.box_shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

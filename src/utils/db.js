@@ -10,23 +10,23 @@ export const links = [
     url: "/sustainability",
   },
   {
-    id: 3,
-    title: "Careers",
-    url: "/career",
+    id: 6,
+    title: "Governance",
+    url: "/governace",
   },
-  {
-    id: 4,
-    title: "News & Insights",
-    url: "/news_insight",
-  },
+  // {
+  //   id: 4,
+  //   title: "News & Insights",
+  //   url: "/news_insight",
+  // },
   {
     id: 5,
     title: "Contact",
     url: "/contact",
   },
   {
-    id: 6,
-    title: "Governance",
-    url: "/governace",
+    id: 3,
+    title: "Careers",
+    url: "/career",
   },
 ];
