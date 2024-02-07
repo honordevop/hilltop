@@ -71,6 +71,13 @@ body {
   background-color: #edf2f7; /* Set the color of the scrollbar track */
 }
 
+.background-image {
+  background-image: url("/bg-image.jpg");
+  /* Other background properties */
+  background-size: cover; /* Optional: Adjust to your needs */
+  background-position: center; /* Optional: Adjust to your needs */
+}
+
 @media (max-width: 500px) {
   .mobile {
     width: 90%;
