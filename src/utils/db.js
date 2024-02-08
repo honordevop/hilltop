@@ -12,7 +12,7 @@ export const links = [
   {
     id: 6,
     title: "Governance",
-    url: "/governace",
+    url: "/governance",
   },
   // {
   //   id: 4,
