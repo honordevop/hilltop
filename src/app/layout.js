@@ -13,7 +13,7 @@ const space_grotesk = Space_Grotesk({
 
 export const metadata = {
   title: "HomePage",
-  description: "Hilltop Global Oil and Gas Solution Intl Ltd website homepage",
+  description: "Hilltop Global Oil and Gas Solutions Intl Ltd website homepage",
 };
 
 export default function RootLayout({ children }) {
