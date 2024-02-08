@@ -16,7 +16,7 @@ const Business = () => {
             Oil & Gas Exploration and Production.
           </p>
           <Link
-            href="/"
+            href="/our-services"
             className="flex gap-2 items-center border-b-2 border-red-600 w-max"
           >
             <Button className={`w-max text-left text-gray-400 font-bold `}>

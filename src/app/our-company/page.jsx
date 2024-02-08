@@ -62,11 +62,16 @@ const OurCompany = () => {
 
   return (
     <div>
-      <div className="px-3 md:px-16 flex flex-col ">
+      <div className="message">
+        <p className="px-3 md:px-16  py-20 font-black text-[35px]  md:text-[60px] message">
+          Who we are
+        </p>
+      </div>
+      <div className="px-3 md:px-16 flex flex-col bg-[#0000000d]">
         <div className="flex flex-col md:flex-row gap-2 py-16">
           <div className="flex-1 ">
             <h1 className="text-[35px] md:text-[45px] py-5">
-              Over 30 years of Field Experience.
+              Over 15 years of Field Experience.
             </h1>
             <div className="flex flex-col gap-2 leading-7 ">
               <p>

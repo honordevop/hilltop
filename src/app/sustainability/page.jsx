@@ -93,7 +93,7 @@ const Sustainability = () => {
             <div className="flex-1 ">
               <div className="h-[25rem] w-full relative ">
                 <Image
-                  src="/2019_seplat_sustainability_report.jpg"
+                  src="/environment.jpg"
                   fill
                   priority
                   className="object-cover rounded-bl-lg"

@@ -22,7 +22,7 @@ const Footer = () => {
                 <div className="w-[150px]">
                   <p className="text-[15px] font-bold py-2">Abuja Office</p>
                   <p>
-                    No 3, Udo Udoma Street, Opposite A.A Rano, Asokoro Hilltop,
+                    No 3, Udo Udoma Street, Opposite A.A Rano, Asokoro Hill,
                     FCT, Abuja
                   </p>
                 </div>

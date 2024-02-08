@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <div>
             <Navbar />
-            {children}
+            <div className="mt-[58px]">{children}</div>
             <Footer />
           </div>
         </ThemeProvider>

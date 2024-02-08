@@ -25,11 +25,11 @@ const Governance = () => {
             technical and financial patnership where required.
           </p>
           <Link
-            href="/"
+            href="/governance"
             className="flex gap-2 items-center border-b-2 border-red-600 w-max"
           >
             <Button className={`w-max text-left text-gray-400 font-bold `}>
-              GOVERNANCE POLICIES
+              LEARN MORE
             </Button>
             <BsArrowRightCircle />
           </Link>
