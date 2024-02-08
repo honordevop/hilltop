@@ -11,6 +11,7 @@ const Alaoma = () => {
           fill
           priority
           className=" object-cover"
+          alt="header image"
         />
       </div>
 
@@ -34,7 +35,13 @@ const Alaoma = () => {
                 June 2022.
               </p>
               <div className="h-[280px] md:h-[380px] w-full relative">
-                <Image src="/oml-53_asset.jpg" fill priority className="" />
+                <Image
+                  src="/oml-53_asset.jpg"
+                  fill
+                  priority
+                  className=""
+                  alt="oml 53 asset"
+                />
               </div>
               <p>
                 The Alaoma Marginal Field is located in Umuneke Ngo Community in
@@ -57,6 +64,7 @@ const Alaoma = () => {
                 fill
                 priority
                 className="object-cover"
+                alt="Alaoma field EIA"
               />
             </div>
           </div>
@@ -68,6 +76,7 @@ const Alaoma = () => {
                 fill
                 priority
                 className=""
+                alt="Alaoma stakeholder engagement"
               />
             </div>
 
@@ -91,6 +100,7 @@ const Alaoma = () => {
                 fill
                 priority
                 className=""
+                alt="Alaoma stakeholder engagement"
               />
             </div>
           </div>

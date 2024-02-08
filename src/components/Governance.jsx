@@ -14,7 +14,7 @@ const Governance = () => {
             fill={true}
             className="object-cover"
             priority
-            alt="governance"
+            alt="governance image"
           />
         </div>
         <div className="w-11/12 md:w-2/4 p-5 flex flex-col gap-5 ">

@@ -35,6 +35,7 @@ const Sustainability = () => {
                   fill
                   priority
                   className="object-cover rounded-bl-lg"
+                  alt="local restaurant"
                 />
               </div>
             </div>
@@ -66,6 +67,7 @@ const Sustainability = () => {
                   fill
                   priority
                   className="object-cover rounded-bl-lg"
+                  alt="image"
                 />
               </div>
             </div>
@@ -97,6 +99,7 @@ const Sustainability = () => {
                   fill
                   priority
                   className="object-cover rounded-bl-lg"
+                  alt="Environment Image"
                 />
               </div>
             </div>
@@ -130,6 +133,7 @@ const Sustainability = () => {
                   fill
                   priority
                   className="object-cover rounded-bl-lg"
+                  alt="pupils image"
                 />
               </div>
             </div>

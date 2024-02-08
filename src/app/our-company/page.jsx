@@ -172,6 +172,7 @@ const OurCompany = () => {
                 fill
                 priority
                 className="object-cover"
+                alt="oil storage tank"
               />
             </div>
           </div>

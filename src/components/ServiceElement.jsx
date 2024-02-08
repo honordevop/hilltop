@@ -16,6 +16,7 @@ const ServiceElement = ({ data }) => {
                 fill
                 priority
                 className="object-cover rounded-bl-lg"
+                alt={`${d.header} Image`}
               />
             </div>
 

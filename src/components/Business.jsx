@@ -31,7 +31,7 @@ const Business = () => {
             fill={true}
             className="object-cover"
             priority
-            alt="business"
+            alt="field worker"
           />
         </div>
       </div>

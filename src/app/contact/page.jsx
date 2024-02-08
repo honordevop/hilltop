@@ -53,6 +53,7 @@ const Contact = () => {
                     fill
                     priority
                     className="object-cover rounded-bl-lg"
+                    alt="contact image"
                   />
                 </div>
               </div>
@@ -92,6 +93,7 @@ const Contact = () => {
                     fill
                     priority
                     className="object-cover rounded-bl-lg"
+                    alt="contact image"
                   />
                 </div>
               </div>
