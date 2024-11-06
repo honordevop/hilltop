@@ -29,7 +29,7 @@ const AlertHome = () => {
             do not recognize any external claims of ownership or equity in our
             asset that are not authorized or disclosed by us. Hilltop Global Oil
             and Gas Solutions Intl Limited was awarded and owned 100% of Alaoma
-            Field by the Nigerian Upstream Petroleum Regulatory Commision
+            Field by the Nigerian Upstream Petroleum Regulatory Commission
             (NUPRC). We caution our clients, and partners to disregard any such
             statements from unauthorized sources.
           </p>
