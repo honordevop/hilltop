@@ -11,7 +11,7 @@ const CeoQuote = () => {
         and fuel progress responsibly. Together, we illuminate pathways to a
         brighter, cleaner energy landscape for generations to come.
       </p>
-      <p className="text-[20px] mt-12 leading-none">Dr. Charles Ozazuwa</p>
+      <p className="text-[20px] mt-12 leading-none">Dr. Charles Osazuwa</p>
       <p className="text-[16px] leading-none">CEO</p>
     </div>
   );

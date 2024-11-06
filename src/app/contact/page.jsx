@@ -124,6 +124,42 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+
+            <div className="flex flex-col md:px-20 mt-24">
+              <div className="rounded-br-lg border-r-2 border-b-2 ">
+                <p className="font-black text-xl text-red-700 underline underline-offset-4">
+                  Disclaimer Notice
+                </p>
+
+                <div className="my-5">
+                  <p className="my-4 leading-8">
+                    It has come to our attention that a certain entity is
+                    falsely claiming an equity stake in our Alaoma Field oil
+                    asset (PPL 224). We do not recognize any external claims of
+                    ownership or equity in our asset that are not authorized or
+                    disclosed by us. Hilltop Global Oil and Gas Solutions Intl
+                    Limited was awarded and owned 100% of Alaoma Field by the
+                    Nigerian Upstream Petroleum Regulatory Commision (NUPRC). We
+                    caution our clients, and partners to disregard any such
+                    statements from unauthorized sources.
+                  </p>
+                  <p className="mb-5 leading-8">
+                    For verified information regarding our assets, and equity
+                    structure, please refer exclusively to NUPRC official
+                    communications on: <br />
+                  </p>
+                  <Link
+                    href="https://www.nuprc.gov.ng/wp-content/uploads/2023/12/Concession-Situation-December-2023.pdf"
+                    passHref
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-red-600 text-white font-bold p-1 rounded-md "
+                  >
+                    Status Of Oil Prospecting Licences (OPLs)
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

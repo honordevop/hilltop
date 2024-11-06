@@ -15,7 +15,7 @@ const Navbar = () => {
     setToggle(false);
   };
   return (
-    <div className="bg-white fixed top-0 z-[199]  w-full flex justify-center">
+    <div className="bg-white fixed top-0 z-[80]  w-full flex justify-center">
       <div className="w-full flex items-center justify-between py-2 px-3 md:py-2 md:px-16">
         <Link href="/">
           <div className="relative w-[100px] h-[40px] md:w-[200px] md:h-20">
